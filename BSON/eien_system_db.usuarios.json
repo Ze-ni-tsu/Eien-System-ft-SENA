@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6a9b3050cc59369b7e006779"
+  },
+  "nombre": "Carlos Conductor",
+  "email": "carlos@kizuna.com",
+  "password_hash": "$2b$12$eImiTXuWVxfM37uY4JANjO",
+  "rol": "Conductor",
+  "estado": "Activo",
+  "intentos_fallidos": 0
+}]

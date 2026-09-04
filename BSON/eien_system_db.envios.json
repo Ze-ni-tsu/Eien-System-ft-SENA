@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "6a9b306fcc59369b7e00677b"
+  },
+  "codigo_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cliente": {
+    "documento": "900123456",
+    "nombre": "SENA Regional Cauca",
+    "telefono": "3001234567",
+    "email": "contacto@sena.edu.co"
+  },
+  "peso_kg": 12.5,
+  "volumen_m3": 0.15,
+  "direccion_destino": "Calle 4 # 2-80, Popayán",
+  "estado": "Entregado",
+  "prioridad": "Alta",
+  "historial": [
+    {
+      "estado_anterior": null,
+      "estado_nuevo": "En Bodega",
+      "usuario_modifico": "David Meyer (Despachador)",
+      "observaciones": "Ingreso a bodega principal",
+      "fecha_cambio": {
+        "$date": "2026-09-04T20:56:15.160Z"
+      }
+    },
+    {
+      "estado_anterior": "Asignado",
+      "estado_nuevo": "Entregado",
+      "usuario_modifico": "Carlos Conductor",
+      "observaciones": "Entregado con foto de evidencia",
+      "fecha_cambio": {
+        "$date": "2026-09-04T21:00:07.076Z"
+      }
+    }
+  ],
+  "evidencia": {
+    "fotografia_url": "https://storage.kizuna.com/evidencias/envio_1.jpg",
+    "ubicacion_gps": {
+      "latitud": 2.4419,
+      "longitud": -76.6063
+    },
+    "recibido_por": "Jhon Moreno",
+    "fecha_entrega": {
+      "$date": "2026-09-04T21:00:07.076Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6a9b310ecc59369b7e00677e"
+  },
+  "codigo_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b856",
+  "cliente": {
+    "documento": "900123456",
+    "nombre": "SENA Regional Cauca",
+    "telefono": "3001234567",
+    "email": "contacto@sena.edu.co"
+  },
+  "peso_kg": 12.5,
+  "volumen_m3": 0.15,
+  "direccion_destino": "Calle 4 # 2-80, Popayán",
+  "estado": "En Bodega",
+  "prioridad": "Alta",
+  "historial": [
+    {
+      "estado_anterior": null,
+      "estado_nuevo": "En Bodega",
+      "usuario_modifico": "David Meyer (Despachador)",
+      "observaciones": "Ingreso a bodega principal",
+      "fecha_cambio": {
+        "$date": "2026-09-04T20:58:54.630Z"
+      }
+    }
+  ]
+}]

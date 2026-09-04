@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "6a9b309dcc59369b7e00677c"
+  },
+  "placa": "KZN-830",
+  "modelo": "Chevrolet N300",
+  "capacidad_kg": 650,
+  "capacidad_vol_m3": 4.3,
+  "estado": "Disponible"
+}]
